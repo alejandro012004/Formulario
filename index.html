@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Comparativa de Telefonía</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Comparativa de Telefonía</h1>
+    <form id="formPrin">
+      <div class="mes">
+        <h2>Mes 1</h2>
+        <label>Minutos hablados:
+          <input type="number" name="minutos1" required />
+        </label>
+        <label>Datos consumidos (GB):
+          <input type="number" name="datos1" required />
+        </label>
+      </div>
+      <div class="mes">
+        <h2>Mes 2</h2>
+        <label>Minutos hablados:
+          <input type="number" name="minutos2"/>
+        </label>
+        <label>Datos consumidos (GB):
+          <input type="number" name="datos2"/>
+        </label>
+      </div>
+      <div class="mes">
+        <h2>Mes 3</h2>
+        <label>Minutos hablados:
+          <input type="number" name="minutos3"/>
+        </label>
+        <label>Datos consumidos (GB):
+          <input type="number" name="datos3"/>
+        </label>
+      </div>
+      <button type="submit">Comparar tarifas</button>
+    </form>
+    <div id="resultado"></div>
+  </div>
+
+  <script src="formulario.js"></script>
+</body>
+</html>
